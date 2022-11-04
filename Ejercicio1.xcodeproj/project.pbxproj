@@ -13,6 +13,17 @@
 		F81B3B4C28BD84EC00E76388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81B3B4A28BD84EC00E76388 /* Main.storyboard */; };
 		F81B3B4E28BD84EF00E76388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81B3B4D28BD84EF00E76388 /* Assets.xcassets */; };
 		F81B3B5128BD84EF00E76388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81B3B4F28BD84EF00E76388 /* LaunchScreen.storyboard */; };
+		F821F14628E66DFD005A3CA9 /* DetalleTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821F14528E66DFD005A3CA9 /* DetalleTableController.swift */; };
+		F821F14828E67829005A3CA9 /* DetalleTable2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821F14728E67829005A3CA9 /* DetalleTable2Controller.swift */; };
+		F87B04A2291499040003347B /* Operador2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B04A1291499040003347B /* Operador2.swift */; };
+		F87B04A5291499A10003347B /* Operaciones2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B04A4291499A10003347B /* Operaciones2.swift */; };
+		F87B04AB29149ACA0003347B /* Operaciones2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B04A929149ACA0003347B /* Operaciones2Cell.swift */; };
+		F87B04AC29149ACA0003347B /* Operaciones2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87B04AA29149ACA0003347B /* Operaciones2Cell.xib */; };
+		F8E0D40A2914A6D90072F15B /* DetalleTable3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E0D4092914A6D90072F15B /* DetalleTable3Controller.swift */; };
+		F8EEC7C72911E47500101C71 /* Operadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC7C62911E47500101C71 /* Operadores.swift */; };
+		F8EEC7CB2911E57300101C71 /* Operaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC7CA2911E57300101C71 /* Operaciones.swift */; };
+		F8EEC7CF2911ECA600101C71 /* OperacionesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC7CD2911ECA600101C71 /* OperacionesCell.swift */; };
+		F8EEC7D02911ECA600101C71 /* OperacionesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EEC7CE2911ECA600101C71 /* OperacionesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		F81B3B4D28BD84EF00E76388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F81B3B5028BD84EF00E76388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F81B3B5228BD84EF00E76388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F821F14528E66DFD005A3CA9 /* DetalleTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTableController.swift; sourceTree = "<group>"; };
+		F821F14728E67829005A3CA9 /* DetalleTable2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTable2Controller.swift; sourceTree = "<group>"; };
+		F87B04A1291499040003347B /* Operador2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operador2.swift; sourceTree = "<group>"; };
+		F87B04A4291499A10003347B /* Operaciones2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operaciones2.swift; sourceTree = "<group>"; };
+		F87B04A929149ACA0003347B /* Operaciones2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operaciones2Cell.swift; sourceTree = "<group>"; };
+		F87B04AA29149ACA0003347B /* Operaciones2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Operaciones2Cell.xib; sourceTree = "<group>"; };
+		F8E0D4092914A6D90072F15B /* DetalleTable3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTable3Controller.swift; sourceTree = "<group>"; };
+		F8EEC7C62911E47500101C71 /* Operadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operadores.swift; sourceTree = "<group>"; };
+		F8EEC7CA2911E57300101C71 /* Operaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operaciones.swift; sourceTree = "<group>"; };
+		F8EEC7CD2911ECA600101C71 /* OperacionesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperacionesCell.swift; sourceTree = "<group>"; };
+		F8EEC7CE2911ECA600101C71 /* OperacionesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperacionesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,10 @@
 		F81B3B4328BD84EC00E76388 /* Ejercicio1 */ = {
 			isa = PBXGroup;
 			children = (
+				F8EEC7CC2911EBEA00101C71 /* Cells */,
+				F8EEC7C92911E54D00101C71 /* Model */,
+				F8EEC7C42911E42200101C71 /* Enums */,
+				F821F14428E66CF2005A3CA9 /* views */,
 				F81B3B4428BD84EC00E76388 /* AppDelegate.swift */,
 				F81B3B4628BD84EC00E76388 /* SceneDelegate.swift */,
 				F81B3B4828BD84EC00E76388 /* ViewController.swift */,
@@ -65,6 +91,61 @@
 				F81B3B5228BD84EF00E76388 /* Info.plist */,
 			);
 			path = Ejercicio1;
+			sourceTree = "<group>";
+		};
+		F821F14428E66CF2005A3CA9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F821F14528E66DFD005A3CA9 /* DetalleTableController.swift */,
+				F821F14728E67829005A3CA9 /* DetalleTable2Controller.swift */,
+				F8E0D4092914A6D90072F15B /* DetalleTable3Controller.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F87B04A32914998E0003347B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F87B04A829149A740003347B /* Cell2 */ = {
+			isa = PBXGroup;
+			children = (
+				F87B04A929149ACA0003347B /* Operaciones2Cell.swift */,
+				F87B04AA29149ACA0003347B /* Operaciones2Cell.xib */,
+			);
+			path = Cell2;
+			sourceTree = "<group>";
+		};
+		F8EEC7C42911E42200101C71 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F8EEC7C62911E47500101C71 /* Operadores.swift */,
+				F87B04A1291499040003347B /* Operador2.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		F8EEC7C92911E54D00101C71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F87B04A32914998E0003347B /* New Group */,
+				F8EEC7CA2911E57300101C71 /* Operaciones.swift */,
+				F87B04A4291499A10003347B /* Operaciones2.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8EEC7CC2911EBEA00101C71 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F87B04A829149A740003347B /* Cell2 */,
+				F8EEC7CD2911ECA600101C71 /* OperacionesCell.swift */,
+				F8EEC7CE2911ECA600101C71 /* OperacionesCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87B04AC29149ACA0003347B /* Operaciones2Cell.xib in Resources */,
+				F8EEC7D02911ECA600101C71 /* OperacionesCell.xib in Resources */,
 				F81B3B5128BD84EF00E76388 /* LaunchScreen.storyboard in Resources */,
 				F81B3B4E28BD84EF00E76388 /* Assets.xcassets in Resources */,
 				F81B3B4C28BD84EC00E76388 /* Main.storyboard in Resources */,
@@ -138,9 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EEC7CF2911ECA600101C71 /* OperacionesCell.swift in Sources */,
 				F81B3B4928BD84EC00E76388 /* ViewController.swift in Sources */,
+				F821F14828E67829005A3CA9 /* DetalleTable2Controller.swift in Sources */,
 				F81B3B4528BD84EC00E76388 /* AppDelegate.swift in Sources */,
+				F8EEC7C72911E47500101C71 /* Operadores.swift in Sources */,
+				F87B04A5291499A10003347B /* Operaciones2.swift in Sources */,
+				F821F14628E66DFD005A3CA9 /* DetalleTableController.swift in Sources */,
 				F81B3B4728BD84EC00E76388 /* SceneDelegate.swift in Sources */,
+				F87B04AB29149ACA0003347B /* Operaciones2Cell.swift in Sources */,
+				F87B04A2291499040003347B /* Operador2.swift in Sources */,
+				F8E0D40A2914A6D90072F15B /* DetalleTable3Controller.swift in Sources */,
+				F8EEC7CB2911E57300101C71 /* Operaciones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
